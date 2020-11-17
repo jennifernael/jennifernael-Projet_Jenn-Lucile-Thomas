@@ -1,0 +1,294 @@
+
+/* partie header */
+#banniereHome
+{
+    background-image: url(../img/bgh.jpg);
+    background-size: cover;
+    
+}
+#bannierePage
+{
+    background-image: url(../img/bgh.jpg);
+    background-size: cover;
+    height: 10em;
+}
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+#banniere img
+
+#bannierePage
+{
+    background-image: url(../img/bgh.jpg);
+    background-size: cover;
+    height: 10em;
+}
+
+#banniereHome p
+{
+    color: #042642;
+    font-size: 1.8em;
+    background-color: rgba(247, 182, 88, 0.6) 
+}
+
+/* corps de la page */
+
+body {
+    margin: 0;
+    font-family: 'Noto Serif TC', serif;
+}
+
+/* <!-- partie Galerie --> */
+
+.parent {
+    width: 100%;
+    color: #000000;
+}
+
+#freshFlower {
+    height: 30em;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(../img/bouquetrose.jpg);
+}
+
+#dryFlower {
+    height: 30em;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(../img/composec.jpg);
+}
+
+#crown {
+    height: 30em;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(../img/dameblanche.jpg);
+}
+
+#vracFlower {
+    height: 30em;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(../img/fleursvrac.jpg);
+}
+
+#landscape {
+    height: 30em;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(../img/jungle.jpg);
+}
+
+#mariage {
+    height: 30em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../img/mariage01.jpg);
+}
+
+#mask {
+    height: 30em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../img/mask.jpg);
+}
+
+#shop1 {
+    height: 30em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../img/shop1.jpg);
+}
+
+#shop2 {
+    height: 30em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../img/shop2.jpg);
+}
+
+/*barre de navigation Jenn*/
+.navbar {
+    background-color: #042642;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.logoStartFlower {
+    width: 15px;
+    height: 15px;
+}
+.collapse {
+display: flex;
+justify-content: center;
+}
+
+i {
+    color: white;
+}
+
+/* partie presentation Lucile */
+h2 {
+    margin-top:50px;
+    color: #042642;
+    text-shadow: #F7B658 8px 5px 3px;
+    text-align:center;
+    font-size: 35px;
+}
+hr
+{
+    width: 70%;
+    border: 2px solid #042642;
+}
+#hourPresentationPage
+{
+    color: #042642;
+    font-size: 20px;
+}
+#textHourPresentation
+{
+    font-size: 18px;
+}
+#presentationPage img
+{
+    border-bottom: 3px solid #F7B658;
+    border-right: 3px solid  #F7B658;
+}
+ 
+/* <!-- partie footer Thomas --> */
+
+footer {
+    color: #ffffff;
+    background-color: #042642;
+}
+
+.iconSocialMedia {
+    width: 3em;
+    height: 3em;
+}
+
+footer > .row > .col > p {
+    font-size: 2em;
+}
+
+
+/* partie actualités - Jenn */
+.btnActu {
+    background-color: #042642;
+    color: #ffffff;
+}
+.PaddButt {
+    margin-top: 15%;
+}
+
+.h3Actu {
+    text-shadow: 0.1em 0.1em 0.2em #F3C88C;
+}
+
+#banniereActu {
+background-image: url(../img/bannière\ actu.jpg);
+background-size: 100%;
+background-repeat: no-repeat;
+margin-top: 3%;
+}
+
+@media screen and (max-width: 1080px) {
+
+    #banniereActu a{
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    #banniereActu a{
+        font-size: 0.6em;
+}
+.PaddButt {
+    margin-top: 10%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #banniereActu a{
+        font-size: 0.4em;
+
+    }
+        .PaddButt {
+            margin-top: 15%;
+        }
+}
+
+@media screen and (max-width: 520px) {
+    #banniereActu a{
+        font-size: 0.26em;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    #banniereActu a{
+        display: none;
+    }
+
+    .PaddButt {
+        margin-top: 4%;
+
+    }
+}
+/** Page livraison Début **/
+#livraisonCovid
+{
+    background-color: #F7B658;
+}
+#livraisonCovid .col
+{
+    background-color: violet;
+}
+#livraisonCovid img
+{
+    width: 50%;
+    height: 50%;
+}
+
+/* #livraisonPage img
+{
+    width: 60%;
+    height: 60%;
+} */
+#livraisonBlocText
+{
+    background-color: #EFDAD8 ;
+    border-radius: 5%;
+    box-shadow: 4px 3px 3px rgba(4, 38, 66, 0.7) ;
+}
+#titleLivraisonText
+{
+    color: #042642;
+    font-size: 20px;
+}
+#boutonBoutiquePageLivraison
+{
+    background-color: #042642;
+    color: #EFDAD8;
+}
+#boutonBoutiquePageLivraison:hover
+{
+    color: white;
+    border: 2px solid #EFDAD8;
+}
+/** Page livraison Fin **/
+
+/** media queries page livraison **/
+@media screen and (max-width: 400px)
+{
+    #livraisonPage p
+    {
+        font-size: 15px
+    }
+    #livraisonPage ul
+    {
+        font-size: 12px
+    }
+}
+/** media queries page livraison FIN **/
